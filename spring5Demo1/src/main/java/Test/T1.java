@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class T1 {
   public static void main(String[] args) {
     ApplicationContext context = new ClassPathXmlApplicationContext("spring-config.xml");
-    Stu stu = (Stu) context.getBean("stuConstructor");
-    System.out.println(stu);
+    Stu stu = (Stu) context.getBean("stu");
+    System.out.println(stu.getCourseList());
   }
 }

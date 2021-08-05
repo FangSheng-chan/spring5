@@ -4,13 +4,44 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="stu" class="entity.Stu">
-        <property name="name" value="zs"></property>
+        <property name="name">
+            <!--存入空值-->
+            <null></null>
+        </property>
         <property name="age" value="22"></property>
+        <property name="lists">
+            <list>
+                <value>1</value>
+                <value>哈哈哈</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="JAVA" value="java"></entry>
+                <entry key="PHP" value="php"></entry>
+            </map>
+        </property>
+        <!--ref 标签-->
+        <property name="courseList">
+            <list>
+                <ref bean="course1"></ref>
+                <ref bean="course2"></ref>
+            </list>
+        </property>
     </bean>
 
-    <bean id="stuConstructor" class="entity.Stu">
-        <constructor-arg name="name" value="ls"></constructor-arg>
-        <constructor-arg name="age" value="23"></constructor-arg>
+    <!--创建多个course对象-->
+    <bean id="course1" class="entity.Course">
+        <property name="courseName" value="Spring5框架"></property>
     </bean>
+    <bean id="course2" class="entity.Course">
+        <property name="courseName" value="MyBatis框架"></property>
+    </bean>
+
+    <!--有参构造方法-->
+    <!--    <bean id="stuConstructor" class="entity.Stu">-->
+    <!--        <constructor-arg name="name" value="ls"></constructor-arg>-->
+    <!--        <constructor-arg name="age" value="23"></constructor-arg>-->
+    <!--    </bean>-->
 
 </beans>
