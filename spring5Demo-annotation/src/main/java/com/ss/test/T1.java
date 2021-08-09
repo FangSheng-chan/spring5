@@ -1,7 +1,6 @@
-package Test;
+package com.ss.test;
 
-import entity.Course;
-import factoryBean.MyBean;
+import com.ss.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,8 +11,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class T1 {
   public static void main(String[] args) {
     ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
-    // 返回值类型可以不是定义的bean类型！
-    Course course = context.getBean("myBean", Course.class);
-    System.out.println(course);
+    UserService userService = context.getBean("userService", UserService.class);
+    System.out.println(userService);
+    userService.add();
   }
 }

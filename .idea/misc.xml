@@ -5,7 +5,18 @@
       <list>
         <option value="$PROJECT_DIR$/spring5Demo1/pom.xml" />
         <option value="$PROJECT_DIR$/spring5Demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo-注解/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo3-注解/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo2-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo3-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5Demo-xml/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring5Demo3-annotation/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

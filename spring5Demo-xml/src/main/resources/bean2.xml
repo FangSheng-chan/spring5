@@ -3,6 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="myBean" class="factoryBean.MyBean"></bean>
+    <bean id="orders" class="entity.Orders" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="oname" value="手机"></property>
+    </bean>
+
+    <!--为所有的 bean 配置后置处理器-->
+    <bean class="entity.MyBeanPost" id="myBeanPost"></bean>
 
 </beans>
