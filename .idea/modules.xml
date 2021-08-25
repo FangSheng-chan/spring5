@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbcTemplate/jdbcTemplate.iml" filepath="$PROJECT_DIR$/jdbcTemplate/jdbcTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring5-transaction/spring5-transaction.iml" filepath="$PROJECT_DIR$/spring5-transaction/spring5-transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5Demo-annotation/spring5Demo-annotation.iml" filepath="$PROJECT_DIR$/spring5Demo-annotation/spring5Demo-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5Demo-xml/spring5Demo-xml.iml" filepath="$PROJECT_DIR$/spring5Demo-xml/spring5Demo-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5Demo1/spring5Demo1.iml" filepath="$PROJECT_DIR$/spring5Demo1/spring5Demo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring5Demo-xml/spring5Demo2-xml.iml" filepath="$PROJECT_DIR$/spring5Demo-xml/spring5Demo2-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/springDemo-proxy/springDemo-proxy.iml" filepath="$PROJECT_DIR$/aop/springDemo-proxy/springDemo-proxy.iml" />
     </modules>
   </component>
 </project>

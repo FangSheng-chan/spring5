@@ -11,10 +11,14 @@
         <option value="$PROJECT_DIR$/spring5Demo3-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring5Demo-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring5Demo-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring5-transaction/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/spring5Demo-xml/spring5Demo-aop/pom.xml" />
         <option value="$PROJECT_DIR$/spring5Demo3-annotation/pom.xml" />
       </set>
     </option>

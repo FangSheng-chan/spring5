@@ -7,18 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring5Demo2-xml" />
+        <module name="jdbcTemplate" />
         <module name="spring5Demo-annotation" />
+        <module name="spring5Demo-aop" />
         <module name="spring5Demo1" />
-        <module name="spring5Demo-xml" />
+        <module name="spring5-transaction" />
+        <module name="springDemo-proxy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aop" target="8" />
+      <module name="jdbcTemplate" target="8" />
+      <module name="spring5-transaction" target="8" />
       <module name="spring5Demo-annotation" target="8" />
+      <module name="spring5Demo-aop" target="8" />
       <module name="spring5Demo-xml" target="8" />
       <module name="spring5Demo1" target="8" />
-      <module name="spring5Demo2-xml" target="8" />
       <module name="spring5Demo3-annotation" target="8" />
+      <module name="springDemo-proxy" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
